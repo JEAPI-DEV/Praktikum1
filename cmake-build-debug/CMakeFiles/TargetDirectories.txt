@@ -1,0 +1,3 @@
+/home/jeapi/CLionProjects/Praktikum1/cmake-build-debug/CMakeFiles/Praktikum1.dir
+/home/jeapi/CLionProjects/Praktikum1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jeapi/CLionProjects/Praktikum1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
