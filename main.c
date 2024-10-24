@@ -7,7 +7,6 @@
  * - Wang Wei (699-761)
  */
 
-
 #define kValuesLenght 3
 
 void printTable(const int n) {
@@ -27,22 +26,10 @@ void printTable(const int n) {
     }
 }
 
-int main(int argc, char *argv[]) {
-    /* had to put every damn variable declaration at the top
-     * otherwise I would have to separate it in some parts with { vars ... code }
-     * due to that damn compiler configuration and standard ( wrote some code in c23 and in comparison
-     * it was heaven and hell (this being hell of course))
-     * and all the same settings except without -Wextra and hell yea I can work with that but this is a pain
-     */
+int main() {
     double a, b, c, temp;
     int kValues[kValuesLenght] = {1, 3, 6};
     int i;
-
-    /* decided to leave -Wextra inside the cmake file. That's
-     * why we need to explicitly ignore argc and argv
-     */
-    (void) argc;
-    (void) argv;
 
     a = 1;
     b = 2;
